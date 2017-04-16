@@ -34,6 +34,7 @@ export default {
   created() {
     this.$http.get('./api/seller?id=' + this.seller.id).then((response) => {
       response = response.body;
+      // 避免seller中seller.id被response.data覆盖
       if (response.error === ERR_OK) {
         this.seller = Object.assign({}, this.seller, response.data);
       }
