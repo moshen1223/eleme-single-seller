@@ -4,7 +4,7 @@
 ***
 快速预览
 
-npm install  / cnpm install
-npm run dev  / cnmp run dev
+npm install || cnpm install    
+npm run dev || cnmp run dev
 
-在浏览器中打开 localhost:8080 （为了达到更好的体验效果，建议使用chrome浏览器）
+在浏览器地址栏中打开 localhost:8080 （为了达到更好的体验效果，建议使用chrome浏览器）
