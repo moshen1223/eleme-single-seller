@@ -47,3 +47,12 @@ npm run dev || cnmp run dev
      ├── index.html               // 项目入口文件
      ├── package.json             // 项目依赖
      ├── README.md
+
+
+技术栈
+  webpack 1.0
+  vue 1.0
+  vue-router
+  vue-resource    
+  [better-scroll](https://github.com/ustbhuangyi/better-scroll)  实现页面中的滚动效果   
+
